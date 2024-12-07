@@ -3,8 +3,8 @@ import { GlobalContext } from '../context/GlobalState';
 
 const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
-
-
+const ab =10;
+   
   return (
     <>
       <h3>History</h3>
